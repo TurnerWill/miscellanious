@@ -4,13 +4,7 @@
 % 
 % 1) Ask for solutions:
 %   solve(Ballantines, Energo, Gas_n_go, Fuel_stop, Vexon)
-% 
-% referencing:
-% Rainhard Findling
-% @ https://geekoverdose.wordpress.com/2015/10/31/solving-logic-puzzles-in-prolog-puzzle-1-of-3/
-% 10/2015
-% referenced for general design and syntactic, semantic overviews
-% in introductory Prolog
+%
 % ##############################################################################################
 
 all_members([H],L2) :- member(H,L2).
